@@ -10,7 +10,7 @@ Data size comparison for *Scroll1/PHercParis4.volpkg* volume *20230205180739*
 ## Usage
 
 Check the first lines of compressed_dl.sh script to set source data, host and target dir.  
-On your host you need working opencv-python, jpegxl (cjxl) and wget.
+On the remote host you need working opencv-python, jpegxl (cjxl) and wget.
 
 The download script allows to only process and download every n-th slice, for example:
 ```
