@@ -28,13 +28,12 @@ By default only one instance of the jpeg-xl encoder and the python scaler code i
 
 Compression is achieved by employing:
 
-- use masked volumes
+- masked volumes
 - bicubic resizing
 - conversion to 8 bit
 - lossless compression with jpex-xl
 
-The original data appears to me to be significantly oversamples and the above compression steps result in visually very minor differences.
-
+The original data appears to me to be significantly oversampled and the above compression steps result in visually very minor differences.
 
 To recover tif files comparable to the original (16bit, same image size) run:
 
