@@ -28,6 +28,7 @@ By default only one instance of the jpeg-xl encoder and the python scaler code i
 
 Compression is achieved by employing:
 
+- use masked volumes
 - bicubic resizing
 - conversion to 8 bit
 - lossless compression with jpex-xl
